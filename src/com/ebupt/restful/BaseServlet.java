@@ -52,7 +52,7 @@ public class BaseServlet extends HttpServlet {
             writer.print(error);
         }
 
-        resp.setHeader("token", "this is a token");
+        //resp.setHeader("token", "this is a token");
 
     }
 
